@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/rlProfile"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:background="@drawable/home_background">
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="168dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/profile_pic" />
+
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerHome"
+            android:layout_below="@id/rlProfile"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+<!--                <TextView-->
+<!--            android:id="@+id/txtName"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/rlProfile"-->
+<!--            android:layout_marginLeft="30dp"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:text=""-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="18sp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/txtReg"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/txtName"-->
+<!--            android:layout_marginLeft="30dp"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:text=""-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="18sp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/txtInst"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/txtReg"-->
+<!--            android:layout_marginLeft="30dp"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:text=""-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="18sp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/txtSem"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/txtInst"-->
+<!--            android:layout_marginLeft="30dp"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:text=""-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="18sp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/txtProgram"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/txtSem"-->
+<!--            android:layout_marginLeft="30dp"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:text=""-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="18sp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/txtGen"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/txtProgram"-->
+<!--            android:layout_marginLeft="30dp"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:text=""-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="18sp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/txtDob"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/txtGen"-->
+<!--            android:layout_marginLeft="30dp"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:text=""-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="18sp" />-->
+
+        <ImageView
+            android:id="@+id/imgBusStop"
+            android:layout_width="132dp"
+            android:layout_height="416dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/bus_stop_image" />
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/recyclerHome"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_button"
+            android:tooltipText="Edit profile" />
+
+    </RelativeLayout>
+</RelativeLayout>

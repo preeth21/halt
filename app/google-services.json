@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "243059237850",
+    "project_id": "halt-2108",
+    "storage_bucket": "halt-2108.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243059237850:android:ebaa2e658240d08346d6e3",
+        "android_client_info": {
+          "package_name": "com.ram.sample2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243059237850-td0d30e8t528f8jr8u34h1t0q22sf2uv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNyfPbVKh6atBBvIkBXC0UclOKgQQ02OE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "243059237850-td0d30e8t528f8jr8u34h1t0q22sf2uv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
